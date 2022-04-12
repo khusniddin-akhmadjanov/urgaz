@@ -1,0 +1,76 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #30415d;
+}
+
+:root {
+  --primary-background-color: #6d7993;
+  --secondary-background-color: #595959;
+
+  --primary-text-color: #8ba1c3;
+  --secondary-text-color: #d4d9dc;
+  --tertiary-text-color: #cf6766;
+}
+
+.container {
+  max-width: 1110px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 20px;
+}
+
+.title {
+  padding: 0;
+  font-family: "Montserrat";
+  font-size: 22px;
+  text-align: center;
+  color: var(--tertiary-text-color);
+  margin-top: 50px;
+}
+
+.month {
+  color: var(--primary-text-color);
+}
+
+.table {
+  text-align: center;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 2px;
+}
+
+.thead_tr {
+  color: var(--secondary-text-color);
+  font-family: "Montserrat";
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+.thead_tr > th {
+  padding: 10px 0;
+}
+
+td {
+  padding: 5px 0;
+  color: var(--secondary-text-color);
+  font-family: "Montserrat";
+  font-size: 14px;
+}
+
+td:nth-child(1) {
+  color: var(--tertiary-text-color);
+}
+
+tr:nth-child(even) > td {
+  background-color: var(--primary-background-color);
+}
+
+tr:nth-child(odd) > td {
+  background-color: var(--secondary-background-color);
+}
+
+.diag {
+  margin-top: 150px;
+}
